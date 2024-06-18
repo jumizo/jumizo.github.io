@@ -319,7 +319,7 @@ legend {
 }
 
 .sec1 .img {
-  background: url(../../portfolio/cover.png) no-repeat 50% 50%;
+  background: url("../../images/portfolio/cover.png") no-repeat 50% 50%;
   width: 100%;
   height: 100vh;
 }
@@ -591,6 +591,8 @@ legend {
   height: 100%;
 }
 .portfolio_wrap .port-img .imges-wrap {
+  display: flex;
+  justify-content: center;
   width: 90%;
   height: 90%;
   border-radius: 30px;
@@ -607,12 +609,327 @@ legend {
   transition: all 3s;
 }
 .portfolio_wrap .port-img .imges-wrap .monami {
-  background: url("../../images/portfolio/portfolio1.jpg") no-repeat 0 0;
+  background: url("../../images/portfolio/cover.png") no-repeat 0 0;
   background-size: cover;
 }
 
 .sec5 {
-  background: #161616 url(../../images/portfolio/portfolio2.jpg) no-repeat 50% 50%/contain;
+  @import url("https://fonts.googleapis.com/css?family=Roboto:100,300");
+}
+.sec5 body {
+  background: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.sec5 * {
+  box-sizing: border-box;
+}
+.sec5 .iphone div {
+  display: block;
+  position: absolute;
+}
+.sec5 .iphone {
+  zoom: 0.75;
+  width: 404px;
+  height: 800px;
+  display: block;
+  position: relative;
+}
+.sec5 .iphone .outer {
+  width: 98%;
+  height: 100%;
+  top: 0;
+  left: 1%;
+  border-radius: 64px;
+  background: #ccc;
+  box-shadow: 10px 30px 200px rgba(0, 0, 0, 0.95);
+}
+.sec5 .iphone .inner {
+  width: 94%;
+  height: 98%;
+  border-radius: 57px;
+  left: 3%;
+  top: 1%;
+  background: #e6e6e6;
+}
+.sec5 .iphone .band {
+  width: 3%;
+  height: 10px;
+  background: #e6e6e6;
+}
+.sec5 .iphone .tl {
+  left: 1%;
+  top: 100px;
+}
+.sec5 .iphone .tr {
+  right: 1%;
+  top: 100px;
+}
+.sec5 .iphone .bl {
+  left: 1%;
+  bottom: 100px;
+}
+.sec5 .iphone .br {
+  right: 1%;
+  bottom: 100px;
+}
+.sec5 .iphone .screen {
+  background: #fff;
+  background: url("../../images/portfolio/recl_splash.png") no-repeat center center;
+  background-size: cover;
+  width: 86%;
+  height: 94%;
+  left: 7%;
+  top: 3%;
+  border-radius: 37px;
+  overflow: hidden;
+  transition: background 1s ease;
+}
+.sec5 .iphone .screen:hover {
+  background: url("../../images/portfolio/recl_main.png") no-repeat center center;
+  background-size: cover;
+}
+.sec5 .iphone .screen iframe {
+  width: 100%;
+  height: 100%;
+  zoom: 0.9;
+}
+.sec5 .iphone .screen .time,
+.sec5 .iphone .screen .date {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.sec5 .iphone .screen .time {
+  padding-top: 100px;
+  font-size: 64px;
+}
+.sec5 .iphone .screen .date {
+  padding-top: 170px;
+  font-size: 18px;
+}
+.sec5 .iphone .speaker-section {
+  width: 48.5%;
+  height: 3.25%;
+  top: 3%;
+  left: 25.75%;
+  background: #e6e6e6;
+  border-bottom-right-radius: 19.5px;
+  border-bottom-left-radius: 19.5px;
+}
+.sec5 .iphone .speaker-section .scanner {
+  height: 8px;
+  width: 8px;
+  background: #b3b3b3;
+  border-radius: 4px;
+  left: 27.5%;
+  top: 25%;
+  transform: translate(0, -50%);
+}
+.sec5 .iphone .speaker-section .camera {
+  height: 10px;
+  width: 10px;
+  background: #b3b3b3;
+  border-radius: 5px;
+  right: 26.5%;
+  top: 25%;
+  transform: translate(0, -50%);
+}
+.sec5 .iphone .speaker-section .speaker {
+  width: 23%;
+  height: 4px;
+  background: #b3b3b3;
+  border-radius: 4px;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+}
+.sec5 .iphone .power,
+.sec5 .iphone .mute,
+.sec5 .iphone .vol {
+  width: 2%;
+  position: absolute;
+  background: #ccc;
+  border-radius: 2px;
+}
+.sec5 .iphone .power {
+  height: 4%;
+  top: 15.5%;
+}
+.sec5 .iphone .vol {
+  height: 7.25%;
+}
+.sec5 .iphone .vol.up {
+  top: 24.5%;
+}
+.sec5 .iphone .vol.down {
+  top: 33.5%;
+}
+.sec5 .iphone .mute {
+  height: 11.5%;
+  top: 15.5%;
+  right: 0;
+}
+
+.sec7 {
+  @import url("https://fonts.googleapis.com/css?family=Roboto:100,300");
+}
+.sec7 body {
+  background: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.sec7 * {
+  box-sizing: border-box;
+}
+.sec7 .iphone div {
+  display: block;
+  position: absolute;
+}
+.sec7 .iphone {
+  zoom: 0.75;
+  width: 404px;
+  height: 800px;
+  display: block;
+  position: relative;
+}
+.sec7 .iphone .outer {
+  width: 98%;
+  height: 100%;
+  top: 0;
+  left: 1%;
+  border-radius: 64px;
+  background: #ccc;
+  box-shadow: 10px 30px 200px rgba(0, 0, 0, 0.95);
+}
+.sec7 .iphone .inner {
+  width: 94%;
+  height: 98%;
+  border-radius: 57px;
+  left: 3%;
+  top: 1%;
+  background: #e6e6e6;
+}
+.sec7 .iphone .band {
+  width: 3%;
+  height: 10px;
+  background: #e6e6e6;
+}
+.sec7 .iphone .tl {
+  left: 1%;
+  top: 100px;
+}
+.sec7 .iphone .tr {
+  right: 1%;
+  top: 100px;
+}
+.sec7 .iphone .bl {
+  left: 1%;
+  bottom: 100px;
+}
+.sec7 .iphone .br {
+  right: 1%;
+  bottom: 100px;
+}
+.sec7 .iphone .screen {
+  background: #fff;
+  background: url("../../images/portfolio/udemy_main.png") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  width: 86%;
+  height: 94%;
+  left: 7%;
+  top: 3%;
+  border-radius: 37px;
+  overflow: hidden;
+  transition: background-position 8s;
+}
+.sec7 .iphone .screen:hover {
+  background-position: center bottom;
+}
+.sec7 .iphone .screen iframe {
+  width: 100%;
+  height: 100%;
+  zoom: 0.9;
+}
+.sec7 .iphone .screen .time,
+.sec7 .iphone .screen .date {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.sec7 .iphone .screen .time {
+  padding-top: 100px;
+  font-size: 64px;
+}
+.sec7 .iphone .screen .date {
+  padding-top: 170px;
+  font-size: 18px;
+}
+.sec7 .iphone .speaker-section {
+  width: 48.5%;
+  height: 3.25%;
+  top: 3%;
+  left: 25.75%;
+  background: #e6e6e6;
+  border-bottom-right-radius: 19.5px;
+  border-bottom-left-radius: 19.5px;
+}
+.sec7 .iphone .speaker-section .scanner {
+  height: 8px;
+  width: 8px;
+  background: #b3b3b3;
+  border-radius: 4px;
+  left: 27.5%;
+  top: 25%;
+  transform: translate(0, -50%);
+}
+.sec7 .iphone .speaker-section .camera {
+  height: 10px;
+  width: 10px;
+  background: #b3b3b3;
+  border-radius: 5px;
+  right: 26.5%;
+  top: 25%;
+  transform: translate(0, -50%);
+}
+.sec7 .iphone .speaker-section .speaker {
+  width: 23%;
+  height: 4px;
+  background: #b3b3b3;
+  border-radius: 4px;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+}
+.sec7 .iphone .power,
+.sec7 .iphone .mute,
+.sec7 .iphone .vol {
+  width: 2%;
+  position: absolute;
+  background: #ccc;
+  border-radius: 2px;
+}
+.sec7 .iphone .power {
+  height: 4%;
+  top: 15.5%;
+}
+.sec7 .iphone .vol {
+  height: 7.25%;
+}
+.sec7 .iphone .vol.up {
+  top: 24.5%;
+}
+.sec7 .iphone .vol.down {
+  top: 33.5%;
+}
+.sec7 .iphone .mute {
+  height: 11.5%;
+  top: 15.5%;
+  right: 0;
+}
+.sec7 .port-texts .text-info .text-head .pf-logo {
+  width: 30%;
 }
 
 .port-texts {
@@ -1142,24 +1459,6 @@ legend {
     font-size: 12px;
   }
 }
-@media screen and (max-width: 1600px) {
-  .sec1 #blobSvg {
-    transform: scale(0.8);
-  }
-  .sec1 .square {
-    font-size: 92px;
-  }
-  .port-texts .text-info .pf-info {
-    top: 35%;
-  }
-  .port-texts .text-info .page-info {
-    top: 58%;
-  }
-  .pfb1,
-  .pfb2 {
-    top: 80%;
-  }
-}
 @media screen and (max-width: 1440px) {
   .sec1 #blobSvg {
     transform: scale(0.8);
@@ -1172,7 +1471,7 @@ legend {
   }
   .portfolio_wrap {
     width: 100%;
-    padding: 0 5%;
+    padding: 120px 5% 0 5%;
   }
   .port-images .macbook {
     transform: scale(0.75);
@@ -1214,7 +1513,7 @@ legend {
     font-size: 14px;
   }
   .port-texts .text-info .text-head .pf-logo {
-    width: 70%;
+    width: 20%;
   }
 }
 @media screen and (max-width: 1280px) {
@@ -1231,7 +1530,7 @@ legend {
   .portfolio_wrap {
     width: auto;
     height: calc(100% - 85px);
-    padding: 0 5%;
+    padding: 120px 5% 0 5%;
   }
   .port-texts {
     position: relative;
@@ -1512,4 +1811,7 @@ legend {
   .port-texts .text-info .pf-info li .pf_info-info {
     font-size: 12px;
   }
+}
+.shadow-none {
+  box-shadow: none !important;
 }/*# sourceMappingURL=comm.css.map */
