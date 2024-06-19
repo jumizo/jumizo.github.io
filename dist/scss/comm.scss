@@ -392,7 +392,7 @@
             justify-content: center;
             width: 90%;
             height: 90%;
-            border-radius: 30px;
+            border-radius: 20px;
             box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
             &:hover {
                 .imgs {
@@ -406,21 +406,15 @@
                 background-position: top;
                 transition: all 3s;
             }
-            .monami {
-                background: url('../../images/portfolio/cover.png') no-repeat 0 0;
+            .sfacfolio {
+                background: url('../../images/portfolio/sfacfolio_main.png') no-repeat 0 0;
                 background-size: cover;
             }
         }
     }
 }
 
-
-// .sec5 { 
-//     background: #161616 url(../../images/portfolio/portfolio2.jpg) no-repeat 50% 50% / contain;
-// }
-
 .sec5 {
-
         @import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
         $iPhoneColour: #ccc;
         $deviceWidth: 404px;
@@ -705,8 +699,7 @@
             overflow: hidden;
             transition: background-position 8s;
             &:hover {
-                background-position: center bottom;
-                
+                background-position: center bottom;   
             }
                 
 
@@ -836,7 +829,7 @@
                 }
             }
             .pf-logo {
-                width: 75%;
+                width: 18%;
                 margin-bottom: 10px;
                 img {
                     width: 100%;
@@ -1351,7 +1344,7 @@
     }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
     .sec1 #blobSvg {
         transform: scale(0.8);
     }
@@ -1427,7 +1420,7 @@
     .portfolio_wrap {
         width: auto;
         height: calc(100% - 85px);
-        padding: 120px 5% 0 5%;
+        padding: 110px 5% 0 5%;
     }
     .port-texts {
         position: relative;
@@ -1547,7 +1540,7 @@
         padding-bottom: 5px;
     }
     .port-texts .text-info .text-head .pf-logo {
-        width: 50%;
+        width: 8%;
     }
     #fp-nav {
         display: none;

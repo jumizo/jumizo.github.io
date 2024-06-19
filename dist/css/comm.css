@@ -595,7 +595,7 @@ legend {
   justify-content: center;
   width: 90%;
   height: 90%;
-  border-radius: 30px;
+  border-radius: 20px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .portfolio_wrap .port-img .imges-wrap:hover .imgs {
@@ -608,8 +608,8 @@ legend {
   background-position: top;
   transition: all 3s;
 }
-.portfolio_wrap .port-img .imges-wrap .monami {
-  background: url("../../images/portfolio/cover.png") no-repeat 0 0;
+.portfolio_wrap .port-img .imges-wrap .sfacfolio {
+  background: url("../../images/portfolio/sfacfolio_main.png") no-repeat 0 0;
   background-size: cover;
 }
 
@@ -960,7 +960,7 @@ legend {
   font-weight: 200;
 }
 .port-texts .text-info .text-head .pf-logo {
-  width: 75%;
+  width: 18%;
   margin-bottom: 10px;
 }
 .port-texts .text-info .text-head .pf-logo img {
@@ -1459,7 +1459,7 @@ legend {
     font-size: 12px;
   }
 }
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .sec1 #blobSvg {
     transform: scale(0.8);
   }
@@ -1530,7 +1530,7 @@ legend {
   .portfolio_wrap {
     width: auto;
     height: calc(100% - 85px);
-    padding: 120px 5% 0 5%;
+    padding: 110px 5% 0 5%;
   }
   .port-texts {
     position: relative;
@@ -1646,7 +1646,7 @@ legend {
     padding-bottom: 5px;
   }
   .port-texts .text-info .text-head .pf-logo {
-    width: 50%;
+    width: 8%;
   }
   #fp-nav {
     display: none;
