@@ -318,11 +318,6 @@ legend {
   font-weight: 700;
 }
 
-.sec1 .img {
-  background: url("../../images/portfolio/cover.png") no-repeat 50% 50%;
-  width: 100%;
-  height: 100vh;
-}
 .sec1 .container-index {
   display: flex;
   justify-content: center;
@@ -333,56 +328,46 @@ legend {
   height: 100vh;
 }
 .sec1 .gradient-purple-blue {
-  background-image: linear-gradient(30deg, #fffef1, #fffce1);
-}
-.sec1 .under-container {
-  width: 100vw;
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.sec1 #blobSvg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: scale(0.9);
-}
-.sec1 .title {
-  font-size: 50px;
-  color: white;
+  background-image: linear-gradient(30deg, #161616, #161616);
 }
 .sec1 .text {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .sec1 .line {
   display: flex;
-  position: relative;
+  position: relativa;
+  align-items: center;
   z-index: 3;
 }
-.sec1 .blob {
+.sec1 .txt-f {
+  width: 40px;
+}
+.sec1 .txt-f img {
   position: absolute;
-  width: 90%;
-  height: 90%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-43%, -50%);
 }
 .sec1 .square {
   font-family: "LOTTERIACHAB";
-  font-size: 100px;
-  font-weight: 900;
+  font-size: 230px;
+  font-weight: 500;
   animation-duration: 1s;
   cursor: default;
   transition: all 0.3s;
-  color: #4e4e4e;
+  color: #fff;
 }
 .sec1 .square:hover {
   color: #fed6e3;
 }
 .sec1 .square:hover #animated-img {
   transition: transform 0.1s ease-out;
+}
+.sec1 .square img {
+  max-width: 100%;
+  max-height: 100%;
 }
 @keyframes rubberBand {
   0% {
@@ -575,15 +560,25 @@ legend {
 .sec8 {
   background: #161616;
 }
-.sec8 .index-txt-wrap {
+.sec8 .index-wrap {
+  display: flex;
+  position: relative;
+  width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec8 .index-wrap .index-txt-wrap {
   width: 45%;
 }
-.sec8 .index-txt-wrap .intxt {
+.sec8 .index-wrap .index-txt-wrap .intxt {
   margin-bottom: 25px;
 }
-.sec8 .index-txt-wrap .intxt .index-tittle {
-  left: 176px;
-  top: 158px;
+.sec8 .index-wrap .index-txt-wrap .intxt .index-tittle {
+  left: 120px;
+  top: 150px;
   position: absolute;
   color: #fff;
   font-size: 68px;
@@ -592,97 +587,82 @@ legend {
   line-height: 95.2px;
   word-wrap: break-word;
 }
-.sec8 .index-txt-wrap .intxt .index-sub {
-  left: 176px;
-  top: 277px;
+.sec8 .index-wrap .index-txt-wrap .intxt .index-sub {
+  left: 120px;
+  top: 260px;
   position: absolute;
   color: #F3F3F3;
-  font-size: 20px;
+  font-size: 18px;
   font-family: Pretendard;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 28px;
   word-wrap: break-word;
 }
-.sec8 .index-list-wrap {
+.sec8 .index-wrap .index-list-wrap {
   width: 45%;
 }
-.sec8 .index-list-wrap .inlist {
+.sec8 .index-wrap .index-list-wrap .inlist {
   margin-bottom: 25px;
 }
-.sec8 .index-list-wrap .inlist .inlist1 {
-  left: 800px;
+.sec8 .index-wrap .index-list-wrap .inlist .inlist1 {
+  left: 1030px;
   top: 213px;
   position: absolute;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 20px;
+  gap: 8px;
   display: inline-flex;
 }
-.sec8 .index-list-wrap .inlist .inlist1 .inlist1-tit {
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 11px;
-  display: flex;
-}
-.sec8 .index-list-wrap .inlist .inlist2 {
-  left: 800px;
-  top: 494px;
+.sec8 .index-wrap .index-list-wrap .inlist .inlist2 {
+  left: 1030px;
+  top: 414px;
   position: absolute;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 20px;
+  gap: 8px;
   display: inline-flex;
 }
-.sec8 .index-list-wrap .inlist .inlist2 .inlist2-tit {
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 11px;
-  display: flex;
-}
-.sec8 .index-list-wrap .inlist .inlist3 {
-  left: 800px;
-  top: 787px;
+.sec8 .index-wrap .index-list-wrap .inlist .inlist3 {
+  left: 1030px;
+  top: 655px;
   position: absolute;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-  gap: 20px;
-  display: inline-fle;
+  align-items: flex-start;
+  gap: 8px;
+  display: inline-flex;
 }
-.sec8 .index-list-wrap .inlist .inlist3 .inlist3-tit {
+.sec8 .index-wrap .index-list-wrap .inlist-tit {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 11px;
   display: flex;
 }
-.sec8 .index-list-wrap .tit-num {
+.sec8 .index-wrap .index-list-wrap .tit-num {
   color: #B0B0B0;
-  font-size: 32px;
+  font-size: 24px;
   font-family: Pretendard;
   font-weight: 700;
   line-height: 44.8px;
   letter-spacing: 0.4px;
   word-wrap: break-word;
 }
-.sec8 .index-list-wrap .tit-sub {
-  color: white;
-  font-size: 32px;
-  font-family: Pretendard;
-  font-weight: 700;
-  line-height: 44.8px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-.sec8 .index-list-wrap .inlist-sub {
+.sec8 .index-wrap .index-list-wrap .tit-sub {
   color: white;
   font-size: 24px;
   font-family: Pretendard;
-  font-weight: 400;
+  font-weight: 700;
+  line-height: 44.8px;
+  letter-spacing: 0.4px;
+  word-wrap: break-word;
+}
+.sec8 .index-wrap .index-list-wrap .inlist-sub {
+  color: white;
+  font-size: 18px;
+  font-family: Pretendard;
+  font-weight: 300;
   line-height: 28px;
   word-wrap: break-word;
 }
@@ -711,6 +691,7 @@ legend {
 .portfolio_wrap .port-img .imges-wrap {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 90%;
   height: 90%;
   border-radius: 20px;
@@ -1570,7 +1551,7 @@ body {
     transform: scale(0.8);
   }
   .sec1 .square {
-    font-size: 90px;
+    font-size: 230px;
   }
   .sec2 .about-wrap {
     max-width: 1280px;
@@ -1627,7 +1608,7 @@ body {
     transform: scale(0.8);
   }
   .sec1 .square {
-    font-size: 90px;
+    font-size: 230px;
   }
   .sec2 .about-wrap {
     max-width: 1280px;
@@ -1728,7 +1709,7 @@ body {
     transform: scale(0.75);
   }
   .sec1 .square {
-    font-size: 85px;
+    font-size: 160px;
   }
   .sec2 .about-txt-wrap .abtxt .about-me {
     font-size: 25px;
@@ -1826,7 +1807,7 @@ body {
     transform: scale(0.8);
   }
   .sec1 .square {
-    font-size: 10vw;
+    font-size: 15vw;
   }
   #about {
     overflow: hidden;
