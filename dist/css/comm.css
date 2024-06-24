@@ -318,6 +318,40 @@ legend {
   font-weight: 700;
 }
 
+.sec1 .home-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  /* 원하는 패딩 값으로 조정하세요 */
+  font-family: "Pretendard";
+  font-weight: 200;
+  font-size: 18px;
+  color: #B0B0B0;
+}
+.sec1 .home-con {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  justify-content: space-between;
+  list-style: none;
+}
+.sec1 .home-con li {
+  white-space: nowrap;
+}
+.sec1 .home-con .design {
+  text-align: right;
+  padding-right: 30px;
+}
+.sec1 .home-con li span {
+  display: block;
+  font-weight: 200;
+  color: #fff;
+  /* 텍스트와 제목 간의 간격을 조정하세요 */
+}
 .sec1 .container-index {
   display: flex;
   justify-content: center;
@@ -432,7 +466,7 @@ legend {
 }
 
 .sec2 {
-  background: #161616;
+  background: url(../../images/portfolio/aboutme_bg.png);
 }
 .sec2 .blob-picture {
   position: absolute;
@@ -466,30 +500,134 @@ legend {
   width: 600px;
 }
 .sec2 .bubble-wrap .blob-pic {
-  top: 54%;
-  left: 50%;
+  top: 20%;
+  left: 30%;
   z-index: 3;
 }
-.sec2 .bubble-wrap .blob-bg {
-  top: 50%;
-  left: 44%;
-  z-index: 1;
-}
-.sec2 .about-txt-wrap {
+.sec2 .about-img-wrap {
   width: 45%;
 }
-.sec2 .about-txt-wrap .abtxt {
+.sec2 .about-img-wrap .abimg {
   margin-bottom: 25px;
 }
-.sec2 .about-txt-wrap .abtxt .about-me {
-  font-weight: 700;
-  font-size: 30px;
-  color: #25216d;
+.sec2 .about-img-wrap .abimg .about-me {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  font-family: "LOTTERIACHAB";
+  font-size: 164px;
+  font-weight: 500;
+  color: #fff;
+  opacity: 20%;
   margin-bottom: 10px;
 }
-.sec2 .about-txt-wrap .abtxt .about-intro {
-  line-height: 35px;
-  color: #151515;
+.sec2 .about-img-wrap .abimg .about-intro img {
+  width: 28%;
+  height: auto;
+  position: absolute;
+  top: 64%;
+  left: 36%;
+  transform: translate(-69%, -50%);
+}
+.sec2 .about-txt-wrap1 {
+  width: 65%;
+}
+.sec2 .about-txt-wrap1 .abtxt {
+  margin: 50px;
+}
+.sec2 .about-txt-wrap1 .abtxt .tit {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.sec2 .about-txt-wrap1 .abtxt .about-me .cjm {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.sec2 .about-txt-wrap1 .abtxt .about-me .cjm .cjm-tit {
+  font-size: 36px;
+  font-weight: 500;
+}
+.sec2 .about-txt-wrap1 .abtxt .about-me .cjm .cjm-bd {
+  font-size: 20px;
+  font-weight: 300;
+}
+.sec2 .about-txt-wrap1 .abtxt .about-me .cjm .cjm-sub {
+  font-size: 16px;
+  font-weight: 200;
+}
+.sec2 .about-txt-wrap1 .abtxt .about-contact {
+  color: #fff;
+  margin-bottom: 50px;
+}
+.sec2 .about-txt-wrap1 .abtxt .about-contact .con .con-sub {
+  font-size: 16px;
+  font-weight: 100;
+}
+.sec2 .about-txt-wrap1 .abtxt .about-contact .con .con-sub-e {
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 0.4px;
+  padding-bottom: 5px;
+}
+.sec2 .about-txt-wrap1 .abtxt .about-skills {
+  color: #fff;
+  margin-bottom: 50px;
+}
+.sec2 .about-txt-wrap1 .abtxt .about-skills .ski {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.sec2 .about-txt-wrap2 {
+  width: 65%;
+}
+.sec2 .about-txt-wrap2 .abtxt {
+  margin: 50px;
+}
+.sec2 .about-txt-wrap2 .abtxt .tit {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.sec2 .about-txt-wrap2 .abtxt .about-advantages {
+  color: #fff;
+  margin-bottom: 50px;
+}
+.sec2 .about-txt-wrap2 .abtxt .about-advantages .adv {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.sec2 .about-txt-wrap2 .abtxt .about-career {
+  color: #fff;
+  margin-bottom: 50px;
+}
+.sec2 .about-txt-wrap2 .abtxt .about-career .car {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.sec2 .about-txt-wrap2 .abtxt .about-ceducatiom {
+  color: #fff;
+  margin-bottom: 50px;
+}
+.sec2 .about-txt-wrap2 .abtxt .about-ceducatiom .edu {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 10px;
 }
 .sec2 .about_tab-wrap {
   display: flex;
@@ -557,116 +695,6 @@ legend {
   margin-bottom: 15px;
 }
 
-.sec8 {
-  background: #161616;
-}
-.sec8 .index-wrap {
-  display: flex;
-  position: relative;
-  width: 1440px;
-  height: 100vh;
-  margin: 0 auto;
-  overflow: hidden;
-  justify-content: space-between;
-  align-items: center;
-}
-.sec8 .index-wrap .index-txt-wrap {
-  width: 45%;
-}
-.sec8 .index-wrap .index-txt-wrap .intxt {
-  margin-bottom: 25px;
-}
-.sec8 .index-wrap .index-txt-wrap .intxt .index-tittle {
-  left: 120px;
-  top: 150px;
-  position: absolute;
-  color: #fff;
-  font-size: 68px;
-  font-family: LOTTERIA CHAB;
-  font-weight: 400;
-  line-height: 95.2px;
-  word-wrap: break-word;
-}
-.sec8 .index-wrap .index-txt-wrap .intxt .index-sub {
-  left: 120px;
-  top: 260px;
-  position: absolute;
-  color: #F3F3F3;
-  font-size: 18px;
-  font-family: Pretendard;
-  font-weight: 300;
-  line-height: 28px;
-  word-wrap: break-word;
-}
-.sec8 .index-wrap .index-list-wrap {
-  width: 45%;
-}
-.sec8 .index-wrap .index-list-wrap .inlist {
-  margin-bottom: 25px;
-}
-.sec8 .index-wrap .index-list-wrap .inlist .inlist1 {
-  left: 1030px;
-  top: 213px;
-  position: absolute;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 8px;
-  display: inline-flex;
-}
-.sec8 .index-wrap .index-list-wrap .inlist .inlist2 {
-  left: 1030px;
-  top: 414px;
-  position: absolute;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 8px;
-  display: inline-flex;
-}
-.sec8 .index-wrap .index-list-wrap .inlist .inlist3 {
-  left: 1030px;
-  top: 655px;
-  position: absolute;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 8px;
-  display: inline-flex;
-}
-.sec8 .index-wrap .index-list-wrap .inlist-tit {
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  display: flex;
-}
-.sec8 .index-wrap .index-list-wrap .tit-num {
-  color: #B0B0B0;
-  font-size: 24px;
-  font-family: Pretendard;
-  font-weight: 700;
-  line-height: 44.8px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-.sec8 .index-wrap .index-list-wrap .tit-sub {
-  color: white;
-  font-size: 24px;
-  font-family: Pretendard;
-  font-weight: 700;
-  line-height: 44.8px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-.sec8 .index-wrap .index-list-wrap .inlist-sub {
-  color: white;
-  font-size: 18px;
-  font-family: Pretendard;
-  font-weight: 300;
-  line-height: 28px;
-  word-wrap: break-word;
-}
-
 .pfs {
   height: 100vh;
   background: #161616;
@@ -710,325 +738,6 @@ legend {
 .portfolio_wrap .port-img .imges-wrap .sfacfolio {
   background: url("../../images/portfolio/sfacfolio_main.png") no-repeat 0 0;
   background-size: cover;
-}
-
-.sec5 {
-  @import url("https://fonts.googleapis.com/css?family=Roboto:100,300");
-}
-.sec5 body {
-  background: white;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-}
-.sec5 * {
-  box-sizing: border-box;
-}
-.sec5 .iphone div {
-  display: block;
-  position: absolute;
-}
-.sec5 .iphone {
-  zoom: 0.75;
-  width: 404px;
-  height: 800px;
-  display: block;
-  position: relative;
-}
-.sec5 .iphone .outer {
-  width: 98%;
-  height: 100%;
-  top: 0;
-  left: 1%;
-  border-radius: 64px;
-  background: #ccc;
-  box-shadow: 10px 30px 200px rgba(0, 0, 0, 0.95);
-}
-.sec5 .iphone .inner {
-  width: 94%;
-  height: 98%;
-  border-radius: 57px;
-  left: 3%;
-  top: 1%;
-  background: #e6e6e6;
-}
-.sec5 .iphone .band {
-  width: 3%;
-  height: 10px;
-  background: #e6e6e6;
-}
-.sec5 .iphone .tl {
-  left: 1%;
-  top: 100px;
-}
-.sec5 .iphone .tr {
-  right: 1%;
-  top: 100px;
-}
-.sec5 .iphone .bl {
-  left: 1%;
-  bottom: 100px;
-}
-.sec5 .iphone .br {
-  right: 1%;
-  bottom: 100px;
-}
-.sec5 .iphone .screen {
-  background: #fff;
-  background: url("../../images/portfolio/recl_splash.png") no-repeat center center;
-  background-size: cover;
-  width: 86%;
-  height: 94%;
-  left: 7%;
-  top: 3%;
-  border-radius: 37px;
-  overflow: hidden;
-  transition: background 1s ease;
-}
-.sec5 .iphone .screen:hover {
-  background: url("../../images/portfolio/recl_main.png") no-repeat center center;
-  background-size: cover;
-}
-.sec5 .iphone .screen iframe {
-  width: 100%;
-  height: 100%;
-  zoom: 0.9;
-}
-.sec5 .iphone .screen .time,
-.sec5 .iphone .screen .date {
-  width: 100%;
-  text-align: center;
-  color: #fff;
-}
-.sec5 .iphone .screen .time {
-  padding-top: 100px;
-  font-size: 64px;
-}
-.sec5 .iphone .screen .date {
-  padding-top: 170px;
-  font-size: 18px;
-}
-.sec5 .iphone .speaker-section {
-  width: 48.5%;
-  height: 3.25%;
-  top: 3%;
-  left: 25.75%;
-  background: #e6e6e6;
-  border-bottom-right-radius: 19.5px;
-  border-bottom-left-radius: 19.5px;
-}
-.sec5 .iphone .speaker-section .scanner {
-  height: 8px;
-  width: 8px;
-  background: #b3b3b3;
-  border-radius: 4px;
-  left: 27.5%;
-  top: 25%;
-  transform: translate(0, -50%);
-}
-.sec5 .iphone .speaker-section .camera {
-  height: 10px;
-  width: 10px;
-  background: #b3b3b3;
-  border-radius: 5px;
-  right: 26.5%;
-  top: 25%;
-  transform: translate(0, -50%);
-}
-.sec5 .iphone .speaker-section .speaker {
-  width: 23%;
-  height: 4px;
-  background: #b3b3b3;
-  border-radius: 4px;
-  left: 50%;
-  top: 25%;
-  transform: translate(-50%, -50%);
-}
-.sec5 .iphone .power,
-.sec5 .iphone .mute,
-.sec5 .iphone .vol {
-  width: 2%;
-  position: absolute;
-  background: #ccc;
-  border-radius: 2px;
-}
-.sec5 .iphone .power {
-  height: 4%;
-  top: 15.5%;
-}
-.sec5 .iphone .vol {
-  height: 7.25%;
-}
-.sec5 .iphone .vol.up {
-  top: 24.5%;
-}
-.sec5 .iphone .vol.down {
-  top: 33.5%;
-}
-.sec5 .iphone .mute {
-  height: 11.5%;
-  top: 15.5%;
-  right: 0;
-}
-
-.sec7 {
-  @import url("https://fonts.googleapis.com/css?family=Roboto:100,300");
-}
-.sec7 body {
-  background: white;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-}
-.sec7 * {
-  box-sizing: border-box;
-}
-.sec7 .iphone div {
-  display: block;
-  position: absolute;
-}
-.sec7 .iphone {
-  zoom: 0.75;
-  width: 404px;
-  height: 800px;
-  display: block;
-  position: relative;
-}
-.sec7 .iphone .outer {
-  width: 98%;
-  height: 100%;
-  top: 0;
-  left: 1%;
-  border-radius: 64px;
-  background: #ccc;
-  box-shadow: 10px 30px 200px rgba(0, 0, 0, 0.95);
-}
-.sec7 .iphone .inner {
-  width: 94%;
-  height: 98%;
-  border-radius: 57px;
-  left: 3%;
-  top: 1%;
-  background: #e6e6e6;
-}
-.sec7 .iphone .band {
-  width: 3%;
-  height: 10px;
-  background: #e6e6e6;
-}
-.sec7 .iphone .tl {
-  left: 1%;
-  top: 100px;
-}
-.sec7 .iphone .tr {
-  right: 1%;
-  top: 100px;
-}
-.sec7 .iphone .bl {
-  left: 1%;
-  bottom: 100px;
-}
-.sec7 .iphone .br {
-  right: 1%;
-  bottom: 100px;
-}
-.sec7 .iphone .screen {
-  background: #fff;
-  background: url("../../images/portfolio/udemy_main.png") no-repeat center center;
-  background-size: cover;
-  background-position: top;
-  width: 86%;
-  height: 94%;
-  left: 7%;
-  top: 3%;
-  border-radius: 37px;
-  overflow: hidden;
-  transition: background-position 8s;
-}
-.sec7 .iphone .screen:hover {
-  background-position: center bottom;
-}
-.sec7 .iphone .screen iframe {
-  width: 100%;
-  height: 100%;
-  zoom: 0.9;
-}
-.sec7 .iphone .screen .time,
-.sec7 .iphone .screen .date {
-  width: 100%;
-  text-align: center;
-  color: #fff;
-}
-.sec7 .iphone .screen .time {
-  padding-top: 100px;
-  font-size: 64px;
-}
-.sec7 .iphone .screen .date {
-  padding-top: 170px;
-  font-size: 18px;
-}
-.sec7 .iphone .speaker-section {
-  width: 48.5%;
-  height: 3.25%;
-  top: 3%;
-  left: 25.75%;
-  background: #e6e6e6;
-  border-bottom-right-radius: 19.5px;
-  border-bottom-left-radius: 19.5px;
-}
-.sec7 .iphone .speaker-section .scanner {
-  height: 8px;
-  width: 8px;
-  background: #b3b3b3;
-  border-radius: 4px;
-  left: 27.5%;
-  top: 25%;
-  transform: translate(0, -50%);
-}
-.sec7 .iphone .speaker-section .camera {
-  height: 10px;
-  width: 10px;
-  background: #b3b3b3;
-  border-radius: 5px;
-  right: 26.5%;
-  top: 25%;
-  transform: translate(0, -50%);
-}
-.sec7 .iphone .speaker-section .speaker {
-  width: 23%;
-  height: 4px;
-  background: #b3b3b3;
-  border-radius: 4px;
-  left: 50%;
-  top: 25%;
-  transform: translate(-50%, -50%);
-}
-.sec7 .iphone .power,
-.sec7 .iphone .mute,
-.sec7 .iphone .vol {
-  width: 2%;
-  position: absolute;
-  background: #ccc;
-  border-radius: 2px;
-}
-.sec7 .iphone .power {
-  height: 4%;
-  top: 15.5%;
-}
-.sec7 .iphone .vol {
-  height: 7.25%;
-}
-.sec7 .iphone .vol.up {
-  top: 24.5%;
-}
-.sec7 .iphone .vol.down {
-  top: 33.5%;
-}
-.sec7 .iphone .mute {
-  height: 11.5%;
-  top: 15.5%;
-  right: 0;
-}
-.sec7 .port-texts .text-info .text-head .pf-logo {
-  width: 30%;
 }
 
 .port-texts {
@@ -1093,6 +802,585 @@ legend {
 .port-texts .text-info .page-info p {
   width: 90%;
   font-weight: 200;
+}
+
+.sec3 {
+  background: #161616;
+}
+.sec3 .index-wrap {
+  display: flex;
+  position: relative;
+  width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec3 .index-wrap .index-txt-wrap {
+  width: 45%;
+  height: 100%;
+}
+.sec3 .index-wrap .index-txt-wrap .intxt {
+  margin-bottom: 25px;
+}
+.sec3 .index-wrap .index-txt-wrap .intxt .index-tittle {
+  left: 100px;
+  top: 150px;
+  position: absolute;
+  color: #fff;
+  font-size: 68px;
+  font-family: LOTTERIA CHAB;
+  font-weight: 400;
+  line-height: 95.2px;
+  word-wrap: break-word;
+}
+.sec3 .index-wrap .index-txt-wrap .intxt .index-sub {
+  left: 120px;
+  top: 260px;
+  position: absolute;
+  color: #F3F3F3;
+  font-size: 18px;
+  font-family: Pretendard;
+  font-weight: 300;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+.sec3 .index-wrap .index-list-wrap {
+  width: 45%;
+}
+.sec3 .index-wrap .index-list-wrap .inlist {
+  margin-bottom: 25px;
+}
+.sec3 .index-wrap .index-list-wrap .inlist .inlist1 {
+  left: 1030px;
+  top: 213px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: inline-flex;
+}
+.sec3 .index-wrap .index-list-wrap .inlist .inlist2 {
+  left: 1030px;
+  top: 414px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: inline-flex;
+}
+.sec3 .index-wrap .index-list-wrap .inlist .inlist3 {
+  left: 1030px;
+  top: 655px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: inline-flex;
+}
+.sec3 .index-wrap .index-list-wrap .inlist-tit {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+.sec3 .index-wrap .index-list-wrap .tit-num {
+  color: #B0B0B0;
+  font-size: 24px;
+  font-family: Pretendard;
+  font-weight: 700;
+  line-height: 44.8px;
+  letter-spacing: 0.4px;
+  word-wrap: break-word;
+}
+.sec3 .index-wrap .index-list-wrap .tit-sub {
+  color: white;
+  font-size: 24px;
+  font-family: Pretendard;
+  font-weight: 700;
+  line-height: 44.8px;
+  letter-spacing: 0.4px;
+  word-wrap: break-word;
+}
+.sec3 .index-wrap .index-list-wrap .inlist-sub {
+  color: white;
+  font-size: 18px;
+  font-family: Pretendard;
+  font-weight: 300;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+.sec4 {
+  @import url("https://fonts.googleapis.com/css?family=Roboto:100,300");
+}
+.sec4 body {
+  background: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.sec4 * {
+  box-sizing: border-box;
+}
+.sec4 .iphone div {
+  display: block;
+  position: absolute;
+}
+.sec4 .iphone {
+  zoom: 0.75;
+  width: 404px;
+  height: 800px;
+  display: block;
+  position: relative;
+}
+.sec4 .iphone .outer {
+  width: 98%;
+  height: 100%;
+  top: 0;
+  left: 1%;
+  border-radius: 64px;
+  background: #ccc;
+  box-shadow: 10px 30px 200px rgba(0, 0, 0, 0.95);
+}
+.sec4 .iphone .inner {
+  width: 94%;
+  height: 98%;
+  border-radius: 57px;
+  left: 3%;
+  top: 1%;
+  background: #e6e6e6;
+}
+.sec4 .iphone .band {
+  width: 3%;
+  height: 10px;
+  background: #e6e6e6;
+}
+.sec4 .iphone .tl {
+  left: 1%;
+  top: 100px;
+}
+.sec4 .iphone .tr {
+  right: 1%;
+  top: 100px;
+}
+.sec4 .iphone .bl {
+  left: 1%;
+  bottom: 100px;
+}
+.sec4 .iphone .br {
+  right: 1%;
+  bottom: 100px;
+}
+.sec4 .iphone .screen {
+  background: #fff;
+  background: url("../../images/portfolio/recl_splash.png") no-repeat center center;
+  background-size: cover;
+  width: 86%;
+  height: 94%;
+  left: 7%;
+  top: 3%;
+  border-radius: 37px;
+  overflow: hidden;
+  transition: background 1s ease;
+}
+.sec4 .iphone .screen:hover {
+  background: url("../../images/portfolio/recl_main.png") no-repeat center center;
+  background-size: cover;
+}
+.sec4 .iphone .screen iframe {
+  width: 100%;
+  height: 100%;
+  zoom: 0.9;
+}
+.sec4 .iphone .screen .time,
+.sec4 .iphone .screen .date {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.sec4 .iphone .screen .time {
+  padding-top: 100px;
+  font-size: 64px;
+}
+.sec4 .iphone .screen .date {
+  padding-top: 170px;
+  font-size: 18px;
+}
+.sec4 .iphone .speaker-section {
+  width: 48.5%;
+  height: 3.25%;
+  top: 3%;
+  left: 25.75%;
+  background: #e6e6e6;
+  border-bottom-right-radius: 19.5px;
+  border-bottom-left-radius: 19.5px;
+}
+.sec4 .iphone .speaker-section .scanner {
+  height: 8px;
+  width: 8px;
+  background: #b3b3b3;
+  border-radius: 4px;
+  left: 27.5%;
+  top: 25%;
+  transform: translate(0, -50%);
+}
+.sec4 .iphone .speaker-section .camera {
+  height: 10px;
+  width: 10px;
+  background: #b3b3b3;
+  border-radius: 5px;
+  right: 26.5%;
+  top: 25%;
+  transform: translate(0, -50%);
+}
+.sec4 .iphone .speaker-section .speaker {
+  width: 23%;
+  height: 4px;
+  background: #b3b3b3;
+  border-radius: 4px;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+}
+.sec4 .iphone .power,
+.sec4 .iphone .mute,
+.sec4 .iphone .vol {
+  width: 2%;
+  position: absolute;
+  background: #ccc;
+  border-radius: 2px;
+}
+.sec4 .iphone .power {
+  height: 4%;
+  top: 15.5%;
+}
+.sec4 .iphone .vol {
+  height: 7.25%;
+}
+.sec4 .iphone .vol.up {
+  top: 24.5%;
+}
+.sec4 .iphone .vol.down {
+  top: 33.5%;
+}
+.sec4 .iphone .mute {
+  height: 11.5%;
+  top: 15.5%;
+  right: 0;
+}
+
+.sec6 {
+  @import url("https://fonts.googleapis.com/css?family=Roboto:100,300");
+}
+.sec6 body {
+  background: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.sec6 * {
+  box-sizing: border-box;
+}
+.sec6 .iphone div {
+  display: block;
+  position: absolute;
+}
+.sec6 .iphone {
+  zoom: 0.75;
+  width: 404px;
+  height: 800px;
+  display: block;
+  position: relative;
+}
+.sec6 .iphone .outer {
+  width: 98%;
+  height: 100%;
+  top: 0;
+  left: 1%;
+  border-radius: 64px;
+  background: #ccc;
+  box-shadow: 10px 30px 200px rgba(0, 0, 0, 0.95);
+}
+.sec6 .iphone .inner {
+  width: 94%;
+  height: 98%;
+  border-radius: 57px;
+  left: 3%;
+  top: 1%;
+  background: #e6e6e6;
+}
+.sec6 .iphone .band {
+  width: 3%;
+  height: 10px;
+  background: #e6e6e6;
+}
+.sec6 .iphone .tl {
+  left: 1%;
+  top: 100px;
+}
+.sec6 .iphone .tr {
+  right: 1%;
+  top: 100px;
+}
+.sec6 .iphone .bl {
+  left: 1%;
+  bottom: 100px;
+}
+.sec6 .iphone .br {
+  right: 1%;
+  bottom: 100px;
+}
+.sec6 .iphone .screen {
+  background: #fff;
+  background: url("../../images/portfolio/udemy_main.png") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  width: 86%;
+  height: 94%;
+  left: 7%;
+  top: 3%;
+  border-radius: 37px;
+  overflow: hidden;
+  transition: background-position 8s;
+}
+.sec6 .iphone .screen:hover {
+  background-position: center bottom;
+}
+.sec6 .iphone .screen iframe {
+  width: 100%;
+  height: 100%;
+  zoom: 0.9;
+}
+.sec6 .iphone .screen .time,
+.sec6 .iphone .screen .date {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.sec6 .iphone .screen .time {
+  padding-top: 100px;
+  font-size: 64px;
+}
+.sec6 .iphone .screen .date {
+  padding-top: 170px;
+  font-size: 18px;
+}
+.sec6 .iphone .speaker-section {
+  width: 48.5%;
+  height: 3.25%;
+  top: 3%;
+  left: 25.75%;
+  background: #e6e6e6;
+  border-bottom-right-radius: 19.5px;
+  border-bottom-left-radius: 19.5px;
+}
+.sec6 .iphone .speaker-section .scanner {
+  height: 8px;
+  width: 8px;
+  background: #b3b3b3;
+  border-radius: 4px;
+  left: 27.5%;
+  top: 25%;
+  transform: translate(0, -50%);
+}
+.sec6 .iphone .speaker-section .camera {
+  height: 10px;
+  width: 10px;
+  background: #b3b3b3;
+  border-radius: 5px;
+  right: 26.5%;
+  top: 25%;
+  transform: translate(0, -50%);
+}
+.sec6 .iphone .speaker-section .speaker {
+  width: 23%;
+  height: 4px;
+  background: #b3b3b3;
+  border-radius: 4px;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+}
+.sec6 .iphone .power,
+.sec6 .iphone .mute,
+.sec6 .iphone .vol {
+  width: 2%;
+  position: absolute;
+  background: #ccc;
+  border-radius: 2px;
+}
+.sec6 .iphone .power {
+  height: 4%;
+  top: 15.5%;
+}
+.sec6 .iphone .vol {
+  height: 7.25%;
+}
+.sec6 .iphone .vol.up {
+  top: 24.5%;
+}
+.sec6 .iphone .vol.down {
+  top: 33.5%;
+}
+.sec6 .iphone .mute {
+  height: 11.5%;
+  top: 15.5%;
+  right: 0;
+}
+.sec6 .port-texts .text-info .text-head .pf-logo {
+  width: 30%;
+}
+
+.sec8 {
+  position: relative;
+}
+.sec8 .thx-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  /* 원하는 패딩 값으로 조정하세요 */
+  font-family: "Pretendard";
+  font-weight: 200;
+  font-size: 18px;
+  color: #B0B0B0;
+}
+.sec8 .thx-con {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  justify-content: space-between;
+  list-style: none;
+}
+.sec8 .thx-con li {
+  white-space: nowrap;
+}
+.sec8 .thx-con .design {
+  text-align: right;
+}
+.sec8 .thx-con li span {
+  display: block;
+  font-weight: 200px;
+  color: #fff;
+  /* 텍스트와 제목 간의 간격을 조정하세요 */
+}
+.sec8 .container-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+}
+.sec8 .gradient-purple-blue {
+  background-image: linear-gradient(30deg, #161616, #161616);
+}
+.sec8 .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec8 .line {
+  display: flex;
+  position: relativa;
+  align-items: center;
+  z-index: 3;
+}
+.sec8 .txt-f {
+  width: 40px;
+}
+.sec8 .txt-f img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-56%, -50%);
+}
+.sec8 .square {
+  font-family: "LOTTERIACHAB";
+  font-size: 68px;
+  font-weight: 500;
+  animation-duration: 1s;
+  cursor: default;
+  transition: all 0.3s;
+  color: #fff;
+}
+.sec8 .square:hover {
+  color: #fed6e3;
+}
+.sec8 .square:hover #animated-img {
+  transition: transform 0.1s ease-out;
+}
+.sec8 .square img {
+  max-width: 100%;
+  max-height: 100%;
+}
+@keyframes rubberBand {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+.sec8 .rubberBand {
+  animation-name: rubberBand;
+}
+.sec8 .mouse {
+  display: flex;
+  width: 30px;
+  height: 50px;
+  border: 2px solid #151515;
+  border-radius: 30px;
+}
+.sec8 .molette {
+  margin: 12px auto auto auto;
+  width: 3px;
+  height: 3px;
+  background-color: #151515;
+  border: 1px solid #151515;
+  border-radius: 90px;
+  animation: scroll 2s ease infinite;
+}
+@keyframes scroll {
+  0% {
+    opacity: 0;
+    margin: 10px auto auto auto;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    margin: 10px auto auto auto;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    margin: 18px auto auto auto;
+  }
 }
 
 .pfb1 {
@@ -1525,9 +1813,11 @@ body {
   width: 100%;
   height: 15%;
   font-size: 14px;
+  font-weight: 200;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: #fff;
 }
 
 @media screen and (max-width: 800px) {
@@ -1555,6 +1845,9 @@ body {
   }
   .sec2 .about-wrap {
     max-width: 1280px;
+  }
+  .sec3 .index-wrap {
+    max-width: 1440px;
   }
   .portfolio_wrap {
     width: 100%;
