@@ -407,11 +407,14 @@
                 .con {
                     .con-sub {
                         display: flex;
+                        align-items: center;
+                        display: flex;
                         font-size: 16px;
                         font-weight: 100;
                     }
 
                     .con-sub-e {
+                        
                         font-size: 16px;
                         font-weight: 100;
                         letter-spacing: 0.4px;
@@ -772,7 +775,7 @@
             p {
                 width: 90%;
                 // opacity: 0.5;
-                font-weight: 200;
+                font-weight: 300;
             }
         }
     }
@@ -1958,7 +1961,7 @@ body {
     }
 
     .port-texts .text-info .page-info p {
-        font-size: 14px;
+        font-size: 16px ;
     }
 
     .port-texts .text-info .text-head .pf-logo {

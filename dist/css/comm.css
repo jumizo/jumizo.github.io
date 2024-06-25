@@ -551,6 +551,8 @@ legend {
 }
 .sec2 .about-txt-wrap .abtxt1 .about-contact .con .con-sub {
   display: flex;
+  align-items: center;
+  display: flex;
   font-size: 16px;
   font-weight: 100;
 }
@@ -857,7 +859,7 @@ legend {
 }
 .port-texts .text-info .page-info p {
   width: 90%;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .sec4 {
@@ -1835,7 +1837,7 @@ body {
     font-size: 15px;
   }
   .port-texts .text-info .page-info p {
-    font-size: 14px;
+    font-size: 16px;
   }
   .port-texts .text-info .text-head .pf-logo {
     width: 20%;
