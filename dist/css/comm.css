@@ -468,52 +468,33 @@ legend {
 .sec2 {
   background: url(../../images/portfolio/aboutme_bg.png);
 }
-.sec2 .blob-picture {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.sec2 #about {
+.sec2 #profile {
   position: relative;
   width: 100%;
   height: 100vh;
   z-index: 100;
 }
 .sec2 .about-wrap {
+  position: relative;
   display: flex;
   max-width: 1440px;
   height: 100vh;
   margin: 0 auto;
-  align-items: center;
+  padding-left: 390px;
+  padding-bottom: 40px;
+  align-items: flex-end;
   justify-content: space-evenly;
 }
-.sec2 .bubble-wrap {
-  position: relative;
-  width: 40%;
-  height: 100%;
-}
-.sec2 .bubble-wrap .bpb {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 600px;
-}
-.sec2 .bubble-wrap .blob-pic {
-  top: 20%;
-  left: 30%;
-  z-index: 3;
-}
 .sec2 .about-img-wrap {
-  width: 45%;
-}
-.sec2 .about-img-wrap .abimg {
-  margin-bottom: 25px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 450px;
 }
 .sec2 .about-img-wrap .abimg .about-me {
   position: absolute;
-  top: 50px;
-  left: 70px;
+  top: -180px;
+  left: -150px;
   font-family: "LOTTERIACHAB";
   font-size: 164px;
   font-weight: 500;
@@ -521,63 +502,70 @@ legend {
   opacity: 20%;
   margin-bottom: 10px;
 }
+.sec2 .about-img-wrap .abimg .about-intro {
+  position: relative;
+  z-index: 1;
+}
 .sec2 .about-img-wrap .abimg .about-intro img {
-  width: 28%;
-  height: auto;
-  position: absolute;
-  top: 64%;
-  left: 36%;
-  transform: translate(-69%, -50%);
+  display: block;
+  width: 100%;
 }
-.sec2 .about-txt-wrap1 {
-  width: 65%;
+.sec2 .about-txt-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-.sec2 .about-txt-wrap1 .abtxt {
-  margin: 50px;
+.sec2 .about-txt-wrap .abtxt1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px;
 }
-.sec2 .about-txt-wrap1 .abtxt .tit {
+.sec2 .about-txt-wrap .abtxt1 .tit {
   font-size: 22px;
   font-weight: 500;
   color: #fff;
   margin-bottom: 10px;
 }
-.sec2 .about-txt-wrap1 .abtxt .about-me .cjm {
+.sec2 .about-txt-wrap .abtxt1 .about-me .cjm {
   font-size: 22px;
   font-weight: 500;
   color: #fff;
   margin-bottom: 50px;
 }
-.sec2 .about-txt-wrap1 .abtxt .about-me .cjm .cjm-tit {
+.sec2 .about-txt-wrap .abtxt1 .about-me .cjm .cjm-tit {
   font-size: 36px;
   font-weight: 500;
 }
-.sec2 .about-txt-wrap1 .abtxt .about-me .cjm .cjm-bd {
+.sec2 .about-txt-wrap .abtxt1 .about-me .cjm .cjm-bd {
   font-size: 20px;
   font-weight: 300;
 }
-.sec2 .about-txt-wrap1 .abtxt .about-me .cjm .cjm-sub {
+.sec2 .about-txt-wrap .abtxt1 .about-me .cjm .cjm-sub {
   font-size: 16px;
   font-weight: 200;
 }
-.sec2 .about-txt-wrap1 .abtxt .about-contact {
+.sec2 .about-txt-wrap .abtxt1 .about-contact {
   color: #fff;
   margin-bottom: 50px;
 }
-.sec2 .about-txt-wrap1 .abtxt .about-contact .con .con-sub {
+.sec2 .about-txt-wrap .abtxt1 .about-contact .con .con-sub {
+  display: flex;
   font-size: 16px;
   font-weight: 100;
 }
-.sec2 .about-txt-wrap1 .abtxt .about-contact .con .con-sub-e {
+.sec2 .about-txt-wrap .abtxt1 .about-contact .con .con-sub-e {
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 0.4px;
   padding-bottom: 5px;
+  margin-right: 10px;
 }
-.sec2 .about-txt-wrap1 .abtxt .about-skills {
+.sec2 .about-txt-wrap .abtxt1 .about-skills {
   color: #fff;
   margin-bottom: 50px;
 }
-.sec2 .about-txt-wrap1 .abtxt .about-skills .ski {
+.sec2 .about-txt-wrap .abtxt1 .about-skills .ski {
   display: flex;
   list-style: none;
   justify-content: space-between;
@@ -585,23 +573,24 @@ legend {
   font-weight: 200;
   margin-bottom: 10px;
 }
-.sec2 .about-txt-wrap2 {
-  width: 65%;
+.sec2 .about-txt-wrap .abtxt2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px;
 }
-.sec2 .about-txt-wrap2 .abtxt {
-  margin: 50px;
-}
-.sec2 .about-txt-wrap2 .abtxt .tit {
+.sec2 .about-txt-wrap .abtxt2 .tit {
   font-size: 22px;
   font-weight: 500;
   color: #fff;
   margin-bottom: 10px;
 }
-.sec2 .about-txt-wrap2 .abtxt .about-advantages {
+.sec2 .about-txt-wrap .abtxt2 .about-advantages {
   color: #fff;
   margin-bottom: 50px;
 }
-.sec2 .about-txt-wrap2 .abtxt .about-advantages .adv {
+.sec2 .about-txt-wrap .abtxt2 .about-advantages .adv {
+  width: 85%;
   display: flex;
   list-style: none;
   justify-content: space-between;
@@ -609,95 +598,162 @@ legend {
   font-weight: 200;
   margin-bottom: 10px;
 }
-.sec2 .about-txt-wrap2 .abtxt .about-career {
+.sec2 .about-txt-wrap .abtxt2 .about-career {
   color: #fff;
   margin-bottom: 50px;
 }
-.sec2 .about-txt-wrap2 .abtxt .about-career .car {
+.sec2 .about-txt-wrap .abtxt2 .about-career .car {
   list-style: none;
   font-size: 16px;
   font-weight: 200;
   margin-bottom: 10px;
+  padding-bottom: 5px;
 }
-.sec2 .about-txt-wrap2 .abtxt .about-ceducatiom {
-  color: #fff;
-  margin-bottom: 50px;
-}
-.sec2 .about-txt-wrap2 .abtxt .about-ceducatiom .edu {
-  list-style: none;
-  font-size: 16px;
-  font-weight: 200;
-  margin-bottom: 10px;
-}
-.sec2 .about_tab-wrap {
-  display: flex;
-  justify-content: space-between;
-}
-.sec2 .tabs {
-  position: relative;
-  width: 45%;
-  height: 270px;
-}
-.sec2 .tab-tit {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
-  height: 55px;
-  border-radius: 54px;
-  border: 1px solid #7a7a7a;
-  background: #f9f3e8;
-}
-.sec2 .tab-tit a {
-  display: block;
-  text-align: center;
-  font-family: "Bitter";
-  line-height: 55px;
-  font-weight: 700;
-}
-.sec2 .lst-wrap {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 30px;
-  padding: 72px 30px;
-  border: 1px solid #7a7a7a;
-  background: #fceab8;
-  box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.1);
-}
-.sec2 .me-wrap {
-  margin-bottom: 15px;
-}
-.sec2 .me-wrap .bw-tit {
-  font-weight: 700;
-}
-.sec2 .me-wrap .bw-con {
-  font-size: 14px;
-  font-weight: 300;
-  color: #222222;
-}
-.sec2 .tec-gra .tec-gra-tit {
-  display: block;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
-.sec2 .tec-gra .tec-gra-con {
-  font-size: 14px;
+.sec2 .about-txt-wrap .abtxt2 .about-career .con-date {
   display: inline-block;
-  margin: 0 10px 5px 0;
-  font-weight: 300;
-  color: #222222;
+  width: 160px;
+  padding-bottom: 5px;
 }
-.sec2 .develop {
-  margin-bottom: 15px;
+.sec2 .about-txt-wrap .abtxt2 .about-education {
+  color: #fff;
+  margin-bottom: 50px;
+}
+.sec2 .about-txt-wrap .abtxt2 .about-education .edu {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+.sec2 .about-txt-wrap .abtxt2 .about-education .edu-date {
+  align-self: flex-start;
+  display: inline-block;
+  width: 160px;
+  padding-bottom: 5px;
+}
+.sec2 .about-txt-wrap .abtxt2 .about-education .edu-tit {
+  display: inline-block;
+  width: 213px;
+  padding-bottom: 5px;
+}
+.sec2 .about-txt-wrap .abtxt2 .about-education .con-sub {
+  display: flex;
 }
 
 .pfs {
   height: 100vh;
   background: #161616;
+}
+
+.sec3 {
+  background: #161616;
+}
+.sec3 .index-wrap {
+  display: flex;
+  position: relative;
+  width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec3 .index-wrap .index-txt-wrap {
+  width: 45%;
+  height: 100%;
+}
+.sec3 .index-wrap .index-txt-wrap .intxt {
+  margin-bottom: 25px;
+}
+.sec3 .index-wrap .index-txt-wrap .intxt .index-tittle {
+  left: 100px;
+  top: 150px;
+  position: absolute;
+  color: #fff;
+  font-size: 68px;
+  font-family: LOTTERIA CHAB;
+  font-weight: 400;
+  line-height: 95.2px;
+  word-wrap: break-word;
+}
+.sec3 .index-wrap .index-txt-wrap .intxt .index-sub {
+  left: 100px;
+  top: 260px;
+  position: absolute;
+  color: #F3F3F3;
+  font-size: 18px;
+  font-family: Pretendard;
+  font-weight: 300;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+.sec3 .index-wrap .index-list-wrap {
+  width: 41%;
+}
+.sec3 .index-wrap .index-list-wrap .inlist {
+  margin-top: 115px;
+}
+.sec3 .index-wrap .index-list-wrap .inlist > div {
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: inline-flex;
+  margin-bottom: 55px;
+}
+.sec3 .index-wrap .index-list-wrap .inlist .inlist1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: inline-flex;
+}
+.sec3 .index-wrap .index-list-wrap .inlist .inlist2 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: inline-flex;
+}
+.sec3 .index-wrap .index-list-wrap .inlist .inlist3 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: inline-flex;
+}
+.sec3 .index-wrap .index-list-wrap .inlist-tit {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+.sec3 .index-wrap .index-list-wrap .tit-num {
+  color: #B0B0B0;
+  font-size: 24px;
+  font-family: Pretendard;
+  font-weight: 700;
+  line-height: 44.8px;
+  letter-spacing: 0.4px;
+  word-wrap: break-word;
+}
+.sec3 .index-wrap .index-list-wrap .tit-sub {
+  color: white;
+  font-size: 24px;
+  font-family: Pretendard;
+  font-weight: 700;
+  line-height: 44.8px;
+  letter-spacing: 0.4px;
+  word-wrap: break-word;
+}
+.sec3 .index-wrap .index-list-wrap .inlist-sub {
+  color: white;
+  font-size: 18px;
+  font-family: Pretendard;
+  font-weight: 300;
+  line-height: 28px;
+  word-wrap: break-word;
 }
 
 .portfolio_wrap {
@@ -802,117 +858,6 @@ legend {
 .port-texts .text-info .page-info p {
   width: 90%;
   font-weight: 200;
-}
-
-.sec3 {
-  background: #161616;
-}
-.sec3 .index-wrap {
-  display: flex;
-  position: relative;
-  width: 1440px;
-  height: 100vh;
-  margin: 0 auto;
-  overflow: hidden;
-  justify-content: space-between;
-  align-items: center;
-}
-.sec3 .index-wrap .index-txt-wrap {
-  width: 45%;
-  height: 100%;
-}
-.sec3 .index-wrap .index-txt-wrap .intxt {
-  margin-bottom: 25px;
-}
-.sec3 .index-wrap .index-txt-wrap .intxt .index-tittle {
-  left: 100px;
-  top: 150px;
-  position: absolute;
-  color: #fff;
-  font-size: 68px;
-  font-family: LOTTERIA CHAB;
-  font-weight: 400;
-  line-height: 95.2px;
-  word-wrap: break-word;
-}
-.sec3 .index-wrap .index-txt-wrap .intxt .index-sub {
-  left: 120px;
-  top: 260px;
-  position: absolute;
-  color: #F3F3F3;
-  font-size: 18px;
-  font-family: Pretendard;
-  font-weight: 300;
-  line-height: 28px;
-  word-wrap: break-word;
-}
-.sec3 .index-wrap .index-list-wrap {
-  width: 45%;
-}
-.sec3 .index-wrap .index-list-wrap .inlist {
-  margin-bottom: 25px;
-}
-.sec3 .index-wrap .index-list-wrap .inlist .inlist1 {
-  left: 1030px;
-  top: 213px;
-  position: absolute;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 8px;
-  display: inline-flex;
-}
-.sec3 .index-wrap .index-list-wrap .inlist .inlist2 {
-  left: 1030px;
-  top: 414px;
-  position: absolute;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 8px;
-  display: inline-flex;
-}
-.sec3 .index-wrap .index-list-wrap .inlist .inlist3 {
-  left: 1030px;
-  top: 655px;
-  position: absolute;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 8px;
-  display: inline-flex;
-}
-.sec3 .index-wrap .index-list-wrap .inlist-tit {
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  display: flex;
-}
-.sec3 .index-wrap .index-list-wrap .tit-num {
-  color: #B0B0B0;
-  font-size: 24px;
-  font-family: Pretendard;
-  font-weight: 700;
-  line-height: 44.8px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-.sec3 .index-wrap .index-list-wrap .tit-sub {
-  color: white;
-  font-size: 24px;
-  font-family: Pretendard;
-  font-weight: 700;
-  line-height: 44.8px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-.sec3 .index-wrap .index-list-wrap .inlist-sub {
-  color: white;
-  font-size: 18px;
-  font-family: Pretendard;
-  font-weight: 300;
-  line-height: 28px;
-  word-wrap: break-word;
 }
 
 .sec4 {

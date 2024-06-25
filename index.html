@@ -20,8 +20,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
         <link
             rel="stylesheet"
-            href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"
-        />
+            href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" />
         <link
@@ -44,6 +43,8 @@
             href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap"
             rel="stylesheet"
         />
+        <link rel="stylesheet"
+            href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="./dist/css/comm.css" />
         <script src="./dist/js/fullpage.min.js"></script>
@@ -62,7 +63,7 @@
             <h1 class="logo">2024 Design Portfolio</h1>
             <div class="menu" id="menu">
                 <li class="depth1"><a href="#intro">INTRO</a></li>
-                <li class="depth2"><a href="#aboutme">ABOUT ME</a></li>
+                <li class="depth2"><a href="#profile">PROFILE</a></li>
                 <!-- <li class="depth3"></li> -->
                 <li class="depth4"><a href="#recl">PORTFOLIO</a></li>
                 <li class="depth5"><a href="#contact">CONTACT</a></li>
@@ -70,8 +71,8 @@
         </header>
         <!-- logo 왼쪽 type -->
         <div id="fullpage">
-            <div class="section sec1" data-tooltip="INTRO" data-anchor="intro">
-                <div id="home">
+            <div class="section sec1" data-tooltip="intro" data-anchor="intro">
+                <div id="intro">
                     <div class="container-index gradient-purple-blue">
                         <div class="text">
                             <div class="line">
@@ -85,24 +86,26 @@
                                 <div class="square">i</div>
                                 <div class="square">o</div>
                             </div>
-                            <!-- <div class="img"></div> -->
                         </div>
                     </div>
-                </div>
-                <div class="home-footer">
-                    <ul class="home-con">
-                        <li class="Mobile">Mobile
-                        <br><span>010 9017 1503</span></li>
-                        <li class="email">Email
-                        <br><span>chojm0524@naver.com</span></li>
-                        <li class="design">Designed by
-                        <br><span>Cho Ju Mi</span></li>
-                    </ul>
+                    <div class="home-footer">
+                        <ul class="home-con">
+                            <li class="Mobile">Mobile
+                                <br><span>010 9017 1503</span>
+                            </li>
+                            <li class="email">Email
+                                <br><span>chojm0524@naver.com</span>
+                            </li>
+                            <li class="design">Designed by
+                                <br><span>Cho Ju Mi</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
-            <div class="section sec2" data-tooltip="ABOUT ME" data-anchor="aboutme">
-                <div id="about">
+            <div class="section sec2" data-tooltip="profile" data-anchor="profile">
+                <!-- <div id="profile"> -->
                     <div class="about-wrap">
                         <div class="about-img-wrap" data-aos="fade-down" data-aos-once="true">
                             <div class="abimg">
@@ -113,59 +116,9 @@
                                     <img src="././images/portfolio/profile1.jpg" alt="">
                                 </div>
                             </div>
-                            
-                            
-                            <!-- <div class="bpb blob-pic"> <img src="./images/portfolio/profile1.png" alt=""></div> -->
-                            
-                            <!-- <div class="bpb blob-pic">
-                                <svg
-                                    viewBox="0 0 500 500"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    width="100%"
-                                    id="blobSvg"
-                                >
-                                    <defs>
-                                        <clipPath id="shape">
-                                            <path
-                                                id="blob"
-                                                d="M432,296Q376,342,341,382.5Q306,423,249.5,423.5Q193,424,155,385.5Q117,347,78.5,298.5Q40,250,64,191Q88,132,130.5,72.5Q173,13,235.5,57.5Q298,102,374,103.5Q450,105,469,177.5Q488,250,432,296Z"
-                                                fill="#d1d8e0"
-                                            ></path>
-                                        </clipPath>
-                                    </defs>
-                                    <img src="blob-picture" alt="">
-                                    <image
-                                        class="blob-picture"
-                                        x="0"
-                                        y="0"
-                                        width="100%"
-                                        height="100%"
-                                        clip-path="url(#shape)"
-                                        object-fit="cover"
-                                        xlink:href="../../images/Portfolio/profile1.jpg"
-                                        preserveAspectRatio="none"
-                                    ></image>
-                                </svg>
-                            </div>
-                            <div class="bpb blob-bg">
-                                <svg
-                                    viewBox="0 0 500 500"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    width="100%"
-                                    id="blobSvg"
-                                >
-                                    <path
-                                        id="blob"
-                                        d="M418.5,296Q392,342,361,383.5Q330,425,273.5,451Q217,477,164.5,443Q112,409,108,351Q104,293,77.5,242.5Q51,192,82,142Q113,92,169.5,86.5Q226,81,271.5,92Q317,103,383.5,112Q450,121,447.5,185.5Q445,250,418.5,296Z"
-                                        fill="#fdcb6e"
-                                    ></path>
-                                </svg>
-                            </div> -->
                         </div>
-                        <div class="about-txt-wrap1" data-aos="fade-up" data-aos-once="true">
-                            <div class="abtxt">
+                        <div class="about-txt-wrap" data-aos="fade-up" data-aos-once="true">
+                            <div class="abtxt1">
                                 <div class="about-me">
                                     <ul class="cjm">
                                         CHO JU MI
@@ -178,8 +131,8 @@
                                 <div class="about-contact">
                                     <div class="tit">Contact</div>
                                     <ul class="con">
-                                        <li class="con-sub-e">chojm0524@naver.com</li>
-                                        <li class="con-sub">010 9017 1503</li>
+                                        <li class="con-sub-e"><i class="las la-envelope" style="margin-right: 10px;"></i>chojm0524@naver.com</li>
+                                        <li class="con-sub"><i class="las la-phone" style="margin-right: 10px;"></i>010 9017 1503</li>
                                     </ul>
                                 </div>
                                 <div class="about-skills">
@@ -193,9 +146,7 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-                        <div class="about-txt-wrap2" data-aos="fade-up" data-aos-once="true">
-                            <div class="abtxt">
+                            <div class="abtxt2">
                                <div class="about-advantages">
                                     <div class="tit">Advantages</div>
                                     <ul class="adv">
@@ -208,23 +159,24 @@
                                 <div class="about-career">
                                     <div class="tit">Career</div>
                                     <ul class="car">
-                                        <li class="con-sub">2023. 10 - 2024. 01 <span class="con-sub-tit">(주)웅진씽크빅 Udemy사업단 인턴</span></li>
-                                        <li class="con-sub">2020. 05 - 2023. 06 <span class="con-sub-tit">(주)미랑에프앤비 영업/바리스타</span></li>
+                                        <li class="con-sub"><span class="con-date">2023. 10 - 2024. 01</span> <span class="con-sub-tit">(주)웅진씽크빅 Udemy사업단 인턴</span></li>
+                                        <li class="con-sub"><span class="con-date">2020. 05 - 2023. 06</span> <span class="con-sub-tit">(주)미랑에프앤비 영업/바리스타</span></li>
                                     </ul>
                                 </div>
                                 <div class="about-education">
                                     <div class="tit">Education</div>
                                     <ul class="edu">
-                                        <li class="con-sub">2024. 05 - 2024. 06 <span>UX/UI 웹&모바일 디자인 실무과정</span></li>
-                                        <li class="con-sub">2023. 07 - 2023. 10 <span>서울경제진흥원 ‘데이터 드리븐 <br>UI/UX 디자이너’ 과정 수료</span></li>
+                                        <li class="con-sub"> <span class="edu-date">2024. 05 - 2024. 06</span> <span class="edu-tit">UX/UI 웹&모바일 디자인 실무과정</span></li>
+                                        <li class="con-sub"> <span class="edu-date">2023. 07 - 2023. 10</span> <span class="edu-tit">서울경제진흥원 ‘데이터 드리븐 UI/UX 디자이너’ 과정 수료</span></li>
                                     </ul>
                                 </div> 
+                            </div>
                         </div>
                     </div>
-                </div>
+                <!-- </div> -->
             </div>
-            <div class="section pfs sec3" data-tooltip="INDEX" data-anchor="index">
-                <div id="index">
+
+            <div class="section pfs sec3" data-tooltip="index" data-anchor="index">
                     <div class="index-wrap">
                         <div class="index-txt-wrap">
                             <div class="intxt">
@@ -248,7 +200,7 @@
                                     </div>
                                     <div class="inlist-sub">
                                         <p>헌 옷 수거 및 판매 서비스를 제공하는 서비스
-                                        <br></br>
+                                        <br>
                                         </p>
                                     </div>
                                 </div>
@@ -275,7 +227,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
             
             <script>
@@ -284,17 +235,17 @@
                         // Fullpage.js 옵션 설정
                         autoScrolling: true,
                         navigation: true,
-                        anchors: ['firstPage', 'sfacfolio', 'thirdPage', 'fourthPage']
+                        anchors: ['recl', 'sfacfolio', 'udemy']
                     });
 
                     // inlist1 요소 클릭 시 다른 페이지로 이동
                     document.querySelector('.inlist1').addEventListener('click', function () {
-                        fullpage_api.moveTo('sfacfolio');
+                        fullpage_api.moveTo('recl');
                     });
 
                     // inlist2 요소 클릭 시 다른 페이지로 이동
                     document.querySelector('.inlist2').addEventListener('click', function () {
-                        fullpage_api.moveTo('recl');
+                        fullpage_api.moveTo('sfacfolio');
                     });
 
                     // inlist3 요소 클릭 시 다른 페이지로 이동
@@ -304,7 +255,7 @@
                 });
             </script>
 
-            <div class="section pfs sec4" data-tooltip="RECL" data-anchor="recl">
+            <div class="section pfs sec4" data-tooltip="recl" data-anchor="recl">
                 <div class="portfolio_wrap">
                     <div class="port-img">
                         <div class="lottie-container"></div>
@@ -372,20 +323,19 @@
                             <div class="pf-button pfb2">
                                 <button class="but UXUI"
                                     onclick="window.open('https://jumizo.github.io/images/portfolio/recl.pdf')">
-                                    Website
+                                    PDF
                                 </button>
                                 <button class="but prototype"
                                     onclick="window.open('https://www.figma.com/proto/ogeKs3xgSL3pbL7rzNxOi8/Untitled?page-id=34%3A17489&node-id=34-18748&viewport=399%2C461%2C0.07&t=Zigr4G7ZqsNz7L8f-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=34%3A18234')">
                                     Prototype
                                 </button>
-                                <button class="but figma" onclick="location.href='https://boaspace.io/'">Figma</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="section pfs sec5" data-tooltip="SFACFOLIO" data-anchor="sfacfolio">
+            <div class="section pfs sec5" data-tooltip="sfacfolio" data-anchor="sfacfolio">
                 <div class="portfolio_wrap">
                     <div class="port-img">
                         <div class="lottie-container"></div>
@@ -431,17 +381,13 @@
                                 </p>
                             </div>
                             <div class="pf-button pfb2">
+                                <button class="but pdf" onclick="window.open('https://jumizo.github.io/images/portfolio/sfacfolio.pdf')">PDF</button>
                                 <button class="but website" onclick="window.open('https://sfacfolio.vercel.app/')">
                                     website
                                 </button>
                                 <button class="but Prototype" onclick="window.open('https://www.figma.com/proto/ogeKs3xgSL3pbL7rzNxOi8/Untitled?page-id=0%3A1&node-id=1-13550&viewport=439%2C481%2C0.09&t=DpRWyZRexYb72B4q-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A14345')">
                                     Prototype
                                 </button>
-                                <!-- <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
-                                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FogeKs3xgSL3pbL7rzNxOi8%2FUntitled%3Fpage-id%3D0%253A1%26node-id%3D1-13550%26viewport%3D1720%252C1303%252C0.34%26t%3DowP0Fe0iXVNGGVE4-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D1%253A14345"
-                                    allowfullscreen></iframe> -->
-                                <button class="but pdf" onclick="window.open('https://jumizo.github.io/images/portfolio/sfacfolio.pdf')">PDF</button>
-                            
                             </div>
                         </div>
                     </div>
@@ -515,19 +461,18 @@
                             </div>
                             <div class="pf-button pfb2">
                                 <button class="but website" onclick="location.href='https://boaspace.io/'">
-                                    WEB SITE
+                                    PDF
                                 </button>
                                 <button class="but github" onclick="location.href='https://boaspace.io/'">
-                                    Github
+                                    Prototype
                                 </button>
-                                <button class="but figma" onclick="location.href='https://boaspace.io/'">Figma</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="section pfs sec7" data-tooltip="CONTACT" data-anchor="contact">
+            <div class="section pfs sec7" data-tooltip="contact" data-anchor="contact">
                 <div class="contact-wrapper">
                     <div class="contact-inner">
                         <div class="contact-info">
@@ -554,8 +499,8 @@
                 </div>
             </div>
 
-            <div class="section sec8" data-tooltip="THX" data-anchor="thanks">
-                <div id="THX">
+            <div class="section sec8" data-tooltip="thanks" data-anchor="thanks">
+                <!-- <div id="thanks"> -->
                     <div class="container-index gradient-purple-blue">
                         <div class="text">
                             <div class="line">
@@ -582,7 +527,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                <!-- </div> -->
                 <div class="thx-footer">
                     <ul class="thx-con">
                         <li class="Mobile">Mobile
@@ -625,7 +570,7 @@
                 navigation: true,
                 scrollingSpeed: 700,
                 controlArrows: false,
-                anchors: ['firstPage', 'secondPage', 'thirdPage'],
+                anchors: ['intro', 'profile', 'index', 'recl', 'sfacfolio', 'Udemy', 'contact', 'thanks'],
                 keyboardScrolling: true,
                 // navigationPosition: "left",
                 showActiveTooltip: false,
