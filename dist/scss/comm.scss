@@ -426,7 +426,7 @@
             .about-skills {
                 // width: 50%;
                 color: #fff;
-                margin-bottom: 50px;
+                // margin-bottom: 50px;
 
                 .ski {
                     display: flex;
@@ -435,6 +435,7 @@
                     font-size: 16px;
                     font-weight: 200;
                     margin-bottom: 10px;
+                    padding-bottom: 5px;
                 }
             }
         }
@@ -486,7 +487,7 @@
             }
             .about-education {
                 color: #fff;
-                margin-bottom: 50px;
+                // margin-bottom: 50px;
                 
                 .edu {
                     // display: flex;
@@ -501,12 +502,12 @@
                     align-self: flex-start;
                     display: inline-block;
                     width: 160px;
-                    padding-bottom: 5px;
+                    // padding-bottom: 5px;
                 }
                 .edu-tit {
                     display: inline-block;
-                    width: 213px;
-                    padding-bottom: 5px;
+                    width: 245px;
+                    // padding-bottom: 5px;
                 }
                 .con-sub {
                     display: flex;

@@ -565,7 +565,6 @@ legend {
 }
 .sec2 .about-txt-wrap .abtxt1 .about-skills {
   color: #fff;
-  margin-bottom: 50px;
 }
 .sec2 .about-txt-wrap .abtxt1 .about-skills .ski {
   display: flex;
@@ -574,6 +573,7 @@ legend {
   font-size: 16px;
   font-weight: 200;
   margin-bottom: 10px;
+  padding-bottom: 5px;
 }
 .sec2 .about-txt-wrap .abtxt2 {
   display: flex;
@@ -618,7 +618,6 @@ legend {
 }
 .sec2 .about-txt-wrap .abtxt2 .about-education {
   color: #fff;
-  margin-bottom: 50px;
 }
 .sec2 .about-txt-wrap .abtxt2 .about-education .edu {
   list-style: none;
@@ -631,12 +630,10 @@ legend {
   align-self: flex-start;
   display: inline-block;
   width: 160px;
-  padding-bottom: 5px;
 }
 .sec2 .about-txt-wrap .abtxt2 .about-education .edu-tit {
   display: inline-block;
-  width: 213px;
-  padding-bottom: 5px;
+  width: 245px;
 }
 .sec2 .about-txt-wrap .abtxt2 .about-education .con-sub {
   display: flex;
