@@ -1256,7 +1256,7 @@ legend {
   color: #fff;
 }
 .sec8 .square:hover {
-  color: #fed6e3;
+  color: #fdcb6e;
 }
 .sec8 .square:hover #animated-img {
   transition: transform 0.1s ease-out;
